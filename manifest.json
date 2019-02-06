@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Enabler",
+  "version": "1.0",
+
+  "description": "I am the enabler!",
+
+  "icons": {
+    "48": "enabler-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "$.js",
+        "enabler.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+h1. Enabler
+
+p. This browser extension removes all Angular disablements, and all disabled attributes from DOM elements.
+
+p. It enables all the things.
